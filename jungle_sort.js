@@ -18,7 +18,7 @@ function sortProductTracker(){
         
     });
     // add table header back to the array
-    //listings.unshift(tableHeader);
+    listings.splice(0, 0, tableHeader);
     $('.tracker-table').html(listings);
 }
 sortProductTracker();
